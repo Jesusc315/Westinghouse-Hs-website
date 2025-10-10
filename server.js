@@ -10,12 +10,12 @@ app.set('views', path.join(__dirname, 'views/pages'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Home route
-app.get('/', (req, res) => {
+app.get(['/', '/westinghousehs.org'], (req, res) => {
   res.render('home');
 });
 
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on http://westinghousehs.org:${PORT}`);
 });

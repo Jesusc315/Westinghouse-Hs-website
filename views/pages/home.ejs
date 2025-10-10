@@ -9,34 +9,24 @@
     <link rel="stylesheet" href="/public/css/header.css">
 </head>
 <body>
-    <header id="gHouseHeader">
-      
-    </header>
+    <%- include('../layouts/header') %>
     <main>
+        <h2>Welcome to George Westinghouse Career & Technical Education High School</h2>
+        <p>Your gateway to a bright future in career and technical education.</p>
         <section>
-                <nav class="contact-nav">
-                    <ul>
-                        <li>
-                            <a href="https://instagram.com/your_instagram" target="_blank" aria-label="Instagram">
-                                <img src="/public/js/images/content/instagram.svg" alt="Instagram"> Instagram
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+1234567890" aria-label="Phone">
-                                <img src="/public/js/images/content/phone.svg" alt="Phone"> (123) 456-7890
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto:info@westinghousehs.edu" aria-label="Email">
-                                <img src="/public/js/images/content/mail.svg" alt="Mail"> info@westinghousehs.edu
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <h3>About Us</h3>
+            <p>George Westinghouse CTE High School is dedicated to providing students with the skills and knowledge needed to succeed in today's competitive job market.</p>
+        </section>
+        <section>
+            <h3>Our Programs</h3>
+            <ul>
+                <li>Computer Science</li>
+                <li>Electrical</li>
+                <li>Culinary</li>
+                <li>STEAM</li>         
+            </ul>
         </section>
     </main>
-    <footer id="gHouseFooter">
-        
-    </footer>
+    <%- include('../layouts/footer') %>
 </body>
 </html>
