@@ -22,7 +22,7 @@
 
 .school-title h1 {
 	margin: 0;
-	font-size: 2em;
+	font-size: 3em;
 	color: #222;
 	font-weight: 700;
 }
@@ -34,7 +34,7 @@
 }
 /* Contact Nav Bar Styles */
 .contact-nav {
-	background: #f8f9fa;
+	background: #0080ff;
 	border-radius: 8px;
 	padding: 16px 24px;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -50,8 +50,9 @@
 	margin: 0;
 }
 .contact-nav li {
-	display: flex;
+	display: block;
 	align-items: center;
+	background-color:#555;
 }
 .contact-nav a {
 	text-decoration: none;
@@ -60,7 +61,7 @@
 	transition: color 0.2s;
 	display: flex;
 	align-items: center;
-	gap: 8px;
+	gap: 5px;
 }
 .contact-nav a:hover {
 	color: #0077b6;

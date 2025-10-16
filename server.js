@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views/pages'));
 
 // Serve static files
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('public'));
 
 // Home route
 app.get(['/', '/westinghousehs.org'], (req, res) => {
