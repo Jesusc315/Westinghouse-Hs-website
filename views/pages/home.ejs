@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link rel="stylesheet" href="/css/header.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%= typeof pageTitle !== 'undefined' ? pageTitle : 'Westinghouse HS' %></title>
+
+<!-- Bootstrap CSS (CDN, 5.x - uses major 5 so you get latest 5.x) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Site CSS (load after Bootstrap so site styles can override) -->
+<link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
     <%- include('../layouts/header') %>
@@ -26,5 +32,9 @@
         </section>
     </main>
     <%- include('../layouts/footer') %>
+     <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Your existing scripts -->
+    <script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,820 @@
+/* imported fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
+
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pinyon+Script&family=Shrikhand&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kelly+Slab&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pinyon+Script&family=Shrikhand&family=Tektur:wght@400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* import open props (for pre-defined variables) */
+@import "https://unpkg.com/open-props";
+
+:root {
+  --clr-neutral-900: hsl(207, 19%, 9%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-400: hsl(54, 77%, 52%);
+  --clr-neutral-600: hsl(216, 55%, 17%);
+  --level-one: translateZ(3rem);
+  --level-two: translateZ(6rem);
+  --level-three: translateZ(9rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* html & body */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* navbar one */
+#nav-1,
+#nav-2,
+#nav-1Modal .modal-content,
+#main-section .missionText,
+#nav-2 .navbar-toggler,
+#special-announcements .btn,
+.path-rows .card-body:hover,
+#gw-media,
+#main-section #main_btn,
+#happenings,
+#main-section .modal-header,
+#quick-access,
+#quick-access .button,
+#gw-media .media-box {
+  background-color: var(--clr-neutral-400);
+}
+
+#nav-1-icons .btn:hover,
+#nav-2 .nav-item a:hover,
+#main-section #main_btn:hover {
+  color: #fff;
+}
+
+#nav-1-icons .btn:hover {
+  transform: scale(1.2);
+  transition: all 0.6s;
+}
+
+#nav-1Modal .modal-title,
+#nav-2 li a,
+#nav-2 .dropdown-item,
+#main-section .missionText,
+.stats_1,
+#stats-head,
+#happenings .card:hover,
+#quick-access .modal-title,
+#gw-media .media-box,
+.cte-title {
+  color: var(--clr-neutral-600);
+}
+
+#nav-1Modal .modal-footer button,
+#main-title,
+#mission,
+#special-announcements .btn:hover,
+#happenings .card,
+#quick-access .modal-footer button,
+#main-section .modal-footer button,
+#pathways,
+#newzCarouselControls .weekly-cal,
+#gw-articulation {
+  background-color: var(--clr-neutral-600);
+}
+
+#nav-2 ul li .under-divider,
+#spin,
+#special-announcements #title,
+#special-announcements .btn:hover,
+#carousel-span,
+.articulation-span,
+#quick-access .modal-footer button {
+  color: var(--clr-neutral-400);
+}
+
+#main-title,
+#become,
+#main-section #main_btn,
+#mission-title,
+#mission-text {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
+
+
+
+#mission #mission-text {
+  font-size: 1.0rem;
+}
+
+.orange-type,
+#nav-2 .dropdown-item:focus,
+#nav-2 .dropdown-item:hover,
+.indicator-text {
+  color: #ea9628 !important;
+}
+
+#nav-2 .nav-item a:hover,
+#special-announcements p a,
+#quick-access .quick-titles a,
+#quick-access .button {
+  text-decoration: none;
+}
+
+#nav-2 li a,
+footer {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+}
+
+
+
+#nav-2 .nav-item a:hover {
+  border-bottom: 3px solid #ea9628;
+}
+
+#nav-2 .dropdown-item {
+  font-size: 0.9rem;
+}
+
+#nav-2 ul li .under-divider {
+  border-bottom: 1px solid #fff;
+}
+
+#nav-2 .navbar-nav li a {
+  font-size: 1.1rem;
+}
+
+#nav-2 .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+#main-title h4 {
+  letter-spacing: 2px;
+  font-family: "PT Sans", sans-serif;
+}
+
+#main-section {
+  min-height: 210px;
+}
+
+#carouselHero img {
+  max-height: 500px;
+  object-fit: cover;
+  width: 55%;
+}
+
+/* home page modal on load */
+#mainPageModal .modal-content {
+  width: 600px;
+}
+
+/* news & accouncements section */
+.special-yellow {
+  color: var(--clr-neutral-400);
+}
+
+#newz .carousel-control-prev,
+#newz .carousel-control-next {
+  background-color: var(--clr-neutral-600);
+  width: 4vh;
+  height: 5vh;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+#newz .carousel-control-prev:hover,
+#newz .carousel-control-next:hover {
+  background-color: var(--clr-neutral-400);
+}
+
+#newz .card {
+  min-width: 235px;
+  max-width: 325;
+  height: 475px;
+  border: 1px solid var(--clr-neutral-400);
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.header-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  color: var(--clr-neutral-600);
+}
+
+#newz .card-long {
+  border: 1px solid #000;
+}
+
+#newz .pic-long {
+  height: 100%;
+  object-fit: cover;
+}
+
+#newz #weekly-dates {
+  margin-top: -5px;
+}
+
+#newz hr {
+  margin-top: -1px;
+}
+
+#newz li {
+  margin-top: -3px;
+}
+
+.cal-btn {
+  color: #fff;
+  background-color: var(--clr-neutral-600);
+}
+
+.cal-btn:hover {
+  color: #000;
+  background-color: var(--clr-neutral-400);
+}
+
+/* calendar */
+.calendar {
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #222;
+  overflow: hidden;
+  width: 300px;
+  color: #fff;
+  padding: 20px;
+}
+
+.cal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.calendar .calendar-btn {
+  cursor: pointer;
+}
+
+#month-year {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.weekdays,
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.days {
+  height: 240px;
+}
+
+.weekdays div,
+.days div {
+  width: 14.28%;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.days div {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.days div:hover {
+  background-color: #fff;
+  color: orangered
+}
+
+.days .today {
+  background-color: orangered;
+  color: #fff;
+}
+
+.days .fade {
+  color: #555;
+}
+
+
+/* weekly planner card */
+#v-pills-tabContent li {
+  font-size: 0.85rem;
+}
+
+/* quick access*/
+#quick-access .card-body,
+#gw-media .media-box {
+  font-family: "Oxygen", sans-serif;
+}
+
+#quick-access .quick-icons {
+  width: 50px;
+}
+
+#quick-access .btn:hover {
+  background-color: var(--clr-neutral-600);
+  color: var(--clr-neutral-400);
+}
+
+#quick-access #gw-building {
+  width: 300px;
+  height: 310px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+/* special westinghouse card inside quotes section */
+#quick-access .card {
+  color: var(--clr-neutral-100);
+  background-image: url("images/index page/westinghouse-pose.jpeg");
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  border: 1px solid #000;
+}
+
+#quick-access .card-2 {
+  background: linear-gradient(0deg, rgba(249, 249, 245, 0.3), rgba(0, 0, 0, 0.4)), url("images/index page/westinghouse-street-view.jpg");
+
+}
+
+#quick-access .card:hover,
+#quick-access .card:focus-within {
+  transform: scale(1.05);
+}
+
+#quick-access .card-content {
+  --padding: 1.5rem;
+  padding: var(--padding);
+  background-color: linear-gradient(hsl(0 0% 0% /0),
+      hsl(0 0% 0% /0.3) 20%,
+      hsl(0 0% 0% /1));
+}
+
+#quick-access .card-title {
+  position: relative;
+  width: max-content;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+}
+
+#quick-access .card-body {
+  color: rgb(255, 255, 255, 0.9);
+  text-align: left;
+}
+
+#quick-access .card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -2px;
+  background: var(--clr-neutral-400);
+  width: calc(100% + var(--padding));
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+#quick-access .card:hover .card-title::after,
+#quick-access .card:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+#newz .nav-pills a {
+  padding-right: 4px;
+  padding-left: 4px;
+  width: 100%;
+}
+
+#newz .nav-pills a:hover {
+  background-color: var(--clr-neutral-400);
+}
+
+
+#newz .quick-dat {
+  display: block;
+  padding-top: 2px;
+}
+
+#newz .clubs-text {
+  font-size: 0.8rem;
+}
+
+@media (hover) {
+  #quick-access .card-content {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+
+  #quick-access .card:hover .card-content,
+  #quick-access .card:focus-within .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  #quick-access .card:focus-within .card-content {
+    transition-duration: 0ms;
+  }
+
+  #quick-access .card-content>*:not(#quick-access .card-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+
+  #quick-access .card:hover .card-content>*:not(#quick-access .card-title),
+  #quick-access .card:focus-within .card-content>*:not(#quick-access .card-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  #quick-access .card-title::after {
+    transform: scaleX(0);
+  }
+}
+
+#quick-access .button {
+  cursor: pointer;
+  display: inline-block;
+  color: var(--clr-neutral-900);
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.25rem;
+}
+
+#quick-access .button:hover,
+#quick-access .button:focus {
+  background-color: var(--clr-neutral-600);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition-delay: 0ms !important;
+  }
+}
+
+#pathways .card {
+  border-radius: 45px;
+  height: 280px;
+  width: 290px;
+}
+
+#pathways .pathway-img {
+  width: 80%;
+}
+
+#pathways .path-rows .card-body:hover {
+  color: var(--clr-neutral-600);
+  border-radius: 45px;
+  animation: bounce 2.5s infinite;
+  -webkit-animation: bounce 2.5s infinite;
+  -moz-animation: bounce 2.5s infinite;
+  -o-animation: bounce 2.5s infinite;
+}
+
+#pathways .path-rows .card-body .btn:hover {
+  background-color: var(--clr-neutral-600);
+  color: #e2ce25;
+}
+
+@-webkit-keyframes bounce {
+
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-20px);
+  }
+}
+
+@-moz-keyframes bounce {
+
+  0%,
+  100% {
+    -moz-transform: translateY(0);
+  }
+
+  50% {
+    -moz-transform: translateY(-20px);
+  }
+}
+
+@-o-keyframes bounce {
+
+  0%,
+  100% {
+    -o-transform: translateY(0);
+  }
+
+  50% {
+    -o-transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Featured Media */
+#gw-media .media-box {
+  border-radius: 15px;
+}
+
+#gw-media .media-pic {
+  width: 300px;
+  height: 170px;
+}
+
+/* articulation */
+#gw-articulation button {
+  background-color: var(--clr-neutral-900);
+  border: 2px solid #fff;
+}
+
+/* #gw-articulation .card {
+  height: 100px;
+} */
+
+#gw-articulation img {
+  width: 208px;
+  height: 100px;
+}
+
+
+.to-top {
+  background: #fff;
+  position: fixed;
+  bottom: 26px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: .55;
+}
+
+
+
+
+/* FOOTER */
+footer p {
+  font-size: 0.9rem;
+  margin-top: -20px;
+}
+
+footer #footer-logo {
+  width: 50%;
+}
+
+footer #copyright {
+  font-family: "Tektur", cursive;
+}
+
+/* 
+====================
+MEDIA QUERIES - MINIMUMS
+====================
+*/
+/* minimum width of 375 */
+@media screen and (min-width: 375px) {
+  #main-title h4 {
+    font-size: 0.7rem;
+  }
+}
+
+/* minimum width of 468 */
+@media screen and (min-width: 468px) {
+  #main-title h4 {
+    font-size: 0.75rem;
+  }
+
+  #events #news-header {
+    font-size: 2.5rem;
+  }
+}
+
+/* minimum width of 576 */
+@media screen and (min-width: 576px) {
+  #main-title h1 {
+    letter-spacing: 4px;
+  }
+
+  #main-title h4 {
+    font-size: 1rem;
+  }
+
+}
+
+/* minimum width of 768 */
+@media screen and (min-width: 768px) {
+  #main-title h1 {
+    font-size: 2.4rem;
+  }
+
+  #main-title h4 {
+    font-size: 1.3rem;
+  }
+
+  /* #newz .carousel-inner{
+    display: flex;
+  }
+  #newz .carousel-item{
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  } */
+}
+
+/* minimum width of 992 */
+@media screen and (min-width: 992px) {
+  #main-title h1 {
+    letter-spacing: 8px;
+    font-size: 2.5rem;
+  }
+
+  #newz .carousel-inner {
+    display: flex;
+  }
+
+  #newz .carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+
+  #newz .carousel-control-prev {
+    margin-left: -45px;
+    background-color: var(--clr-neutral-400);
+  }
+
+  #newz .carousel-control-next {
+    margin-right: -45px;
+    background-color: var(--clr-neutral-400);
+  }
+
+  #newz .carousel-control-prev:hover,
+  #newz .carousel-control-next:hover {
+    background-color: var(--clr-neutral-600);
+  }
+
+}
+
+/* minimum width of 1028 */
+@media screen and (min-width: 1028px) {
+  #main-title h1 {
+    font-size: 2.5rem;
+  }
+
+  #main-title h4 {
+    font-size: 1.5rem;
+  }
+
+  #main-title img {
+    width: 100%;
+    padding-top: 15px;
+  }
+}
+
+/* minimum width of 1200 */
+@media screen and (min-width: 1200px) {
+  #main-title img {
+    width: 85%;
+    padding-top: 0;
+  }
+}
+
+/* minimum width of 1400 */
+@media screen and (min-width: 1400px) {
+  #main-title h1 {
+    font-size: 3.3rem;
+  }
+
+  #main-title h4 {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* 
+====================
+MEDIA QUERIES - MAXIMUMS
+====================
+*/
+
+/* maximum width of 340 */
+@media screen and (max-width: 384px) {
+  #main-title h4 {
+    font-size: 0.65rem;
+  }
+}
+
+/* max-width of 575 */
+@media screen and (max-width: 575px) {
+  #main-section #carouselHero img {
+    height: 210px;
+    width: 100%;
+  }
+}
+
+/* maximum of  767*/
+@media screen and (max-width: 767px) {
+  #main-title h1 {
+    font-size: 1.8rem;
+  }
+
+  /* #special-announcements .carousel-item img{
+    height: 40%;
+  } */
+  footer #footer-logo {
+    width: 30%;
+  }
+
+  footer #nyc-logo {
+    width: 30%;
+  }
+}
+
+/* maximum of 991 */
+@media screen and (max-width: 991px) {
+
+  #mission #mission-text {
+    font-size: 0.9rem;
+  }
+
+  #main-title img {
+    padding-bottom: 10px;
+    width: 30%;
+  }
+}

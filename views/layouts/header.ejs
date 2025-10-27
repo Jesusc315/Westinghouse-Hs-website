@@ -1,34 +1,45 @@
 <header>
-    <nav class="contact-nav">
-        <div class="header-brand">
-            <div class="emblem-placeholder">
-                <img src="/public/js/images/content/emblem.png" alt="School Emblem">
-            </div>
-            <div class="school-title">
-                <h1>George Westinghouse</h1>
-                <h2>Career & Technical Education High School</h2>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand d-flex align-items-center" href="/">
+        <img src="/js/images/content/emblem.png" alt="School Emblem" id="header-emblem" />
+        <div class="ms-2 d-none d-md-block">
+          <div class="h5 mb-0 fw-bold">George Westinghouse</div>
+          <div class="small">Career & Technical Education High School</div>
         </div>
-        <ul>
-            <li>
-                <a href="https://instagram.com/your_instagram" target="_blank" aria-label="Instagram">
-                    <img src="/public/js/images/content/instagram.svg" alt="Instagram"> Instagram
-                </a>
-            </li>
-            <li>
-                <a href="tel:+1234567890" aria-label="Phone">
-                    <img src="/public/js/images/content/phone.svg" alt="Phone"> (123) 456-7890
-                </a>
-            </li>
-            <li>
-                <a href="mailto:your_email@example.com" aria-label="Email">
-                    <img src="/public/js/images/content/mail.svg" alt="Mail"> your_email@example.com
-                </a>
-            </li>
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav links -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="/academics">Academics</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admissions">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link" href="/athletics">Athletics</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
         </ul>
-        <ul>
-            <li><a href="/about" aria-label="About">About</a></li>
-            <li><a href="/academics" aria-label="Academics">Academics</a></li>
+
+        <!-- Right-side contact/social -->
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item d-flex align-items-center me-3">
+            <a class="nav-link d-flex align-items-center" href="mailto:your_email@example.com">
+              <img src="/js/images/content/mail.svg" alt="Mail" class="me-1" style="width:18px;height:18px;"> info@westinghousehs.edu
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary btn-sm" href="tel:+1234567890">
+              <img src="/js/images/content/phone.svg" alt="Phone" style="width:16px;height:16px;" class="me-1"> (123) 456-7890
+            </a>
+          </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
 </header>
