@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const staff = require('./data/staff.json');
 
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
@@ -29,6 +30,9 @@ app.get(['/programs', '/westinghousehs.org/programs'], (req, res) => {
 app.get(['/contact', '/westinghousehs.org/contact'], (req, res) => {
   res.render('contact');
 });
+app.get(['/staff' , '/westinghousehs.org/staff'], (req, res) => {
+  res.render('staff', { staff });
+})
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
