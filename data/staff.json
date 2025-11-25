@@ -1,5 +1,6 @@
 [
   {
+    "section": "Administrators",
     "name": "Kyleema A. Norman",
     "role": "Principal",
     "bio": "RM 114",
@@ -8,6 +9,7 @@
     "phone": "(555) 123-4567"
   },
   {
+    "section": "Administrators",
     "name": "Susan Caprio",
     "role": "Assistant Principal",
     "bio": "RM 366",
@@ -16,6 +18,7 @@
     "phone": "(555) 234-5678"
   },
   {
+    "section": "Administrators",
     "name": "Steven Chung",
     "role": "Assistant Principal",
     "bio": "RM 150",
@@ -24,6 +27,7 @@
     "phone": "(555) 345-6789"
   },
   {
+    "section":"Administrators",
     "name":"Valerie Girard Ward",
     "role":"Assistant Principal",
     "bio":"RM 212",
@@ -32,11 +36,21 @@
     "phone":"(555) 345-6789"
   },
   {
+    "section": "Administrators",
     "name": "Nick Pillari",
     "role": "Assistant Principal",
     "bio": "RM 152",
     "photo": "https://www.westinghousehs.org/pages/staff_page/images/pillari.png",
     "email":"npillar@schools.nyc.gov",
     "phone":"(555) 123-4567"
-  }
+  },
+  {
+  "section": "Parent Coordinator",
+  "name": "Maria Garcia",
+  "role": "Parent Coordinator",
+  "bio": "RM 301",
+  "photo": "path/to/photo.png",
+  "email": "mgarcia@schools.nyc.gov",
+  "phone": "(555) 999-9999"
+}
 ]
