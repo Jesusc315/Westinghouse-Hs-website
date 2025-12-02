@@ -45,7 +45,7 @@
                     <% const groups = chunkArray(sections[sectionName], 3); %>
                     <% groups.forEach(function(group) { %>
                         <% const groupLen = group.length; %>
-                        <% const rowClass = (groupLen === 2) ? 'row justify-content-center g-4' : 'row g-4'; %>
+                        <% const rowClass = (groupLen < 3) ? 'row justify-content-center g-4' : 'row g-4'; %>
                         <div class="<%= rowClass %>">
                             <% group.forEach(function(st) { %>
                                 <div class="col-12 col-md-4 d-flex">

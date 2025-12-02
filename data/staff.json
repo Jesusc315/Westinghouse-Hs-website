@@ -46,11 +46,74 @@
   },
   {
   "section": "Parent Coordinator",
-  "name": "Maria Garcia",
+  "name": "Carolette Rouse",
   "role": "Parent Coordinator",
-  "bio": "RM 301",
-  "photo": "path/to/photo.png",
-  "email": "mgarcia@schools.nyc.gov",
+  "bio": "RM 156",
+  "photo": "https://www.westinghousehs.org/pages/staff_page/images/rouse.png",
+  "email": "crouse@schools.nyc.gov",
   "phone": "(555) 999-9999"
+},
+{
+  "section": "Office Staff",
+  "name": "Dina Auguste",
+  "role": "Attendance",
+  "bio": "RM 162",
+  "photo": "https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email": "daugust3@schools.nyc.gov",
+  "phone": "(555) 999-9999"
+},
+{
+  "section": "Office Staff",
+  "name": "Lakeisha Boynton",
+  "role": "School Aide",
+  "bio": "RM 162",
+  "photo": "https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email": "lboynton@schools.nyc.gov",
+  "phone": "(555) 888-8888"
+},
+{
+  "section": "Office Staff",
+  "name": "Shayna Cohen",
+  "role": "School Aide",
+  "bio": "RM 150",
+  "photo": "https://www.westinghousehs.org/pages/staff_page/images/cohen.png",
+  "email": "scohen80@schools.nyc.gov",
+  "phone": "(555) 888-8888"
+},
+{
+  "section": "Office Staff",
+  "name": "Millie Colon",
+  "role": "Principal/Payroll Secretary",
+  "bio": "RM 146",
+  "photo": "https://www.westinghousehs.org/pages/staff_page/images/colon.png",
+  "email": "acolon14@schools.nyc.gov",
+  "phone": "(555) 888-8888"
+},
+{
+  "section": "Office Staff",
+  "name": "Pamela Gooding",
+  "role": "Pupil Accounting Secretary",
+  "bio": "RM 146",
+  "photo": "https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email": "No email listed",
+  "phone": "(555) 888-8888"
+},
+{
+  "section": "Office Staff",
+  "name": "Lillian Pierce",
+  "role": "School Aide",
+  "bio": "RM 152",
+  "photo": "https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email": "lpierce3@schools.nyc.gov",
+  "phone": "(555) 888-8888"
+},
+{
+  "section": "Office Staff",
+  "name": "Angie Vasiliou",
+  "role": "School Aide",
+  "bio": "RM 142A",
+  "photo": "https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email": "avasiliou@schools.nyc.gov",
+  "phone": "(555) 888-8888"
 }
 ]
