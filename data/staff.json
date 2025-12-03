@@ -115,5 +115,68 @@
   "photo": "https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
   "email": "avasiliou@schools.nyc.gov",
   "phone": "(555) 888-8888"
+},
+{
+  "section": "Office Staff",
+  "name": "Brian Weinstein",
+  "role": "School Aide",
+  "bio": "RM 142A",
+  "photo": "https://www.westinghousehs.org/pages/staff_page/images/Weinstein.png",
+  "email": "bkweinstein@schools.nyc.gov",
+  "phone": "(555) 888-8888"
+},
+{
+  "section":"Dean of Students",
+  "name":"Robin Henry",
+  "role":"Dean",
+  "bio":"RM 160",
+  "photo":"https://www.westinghousehs.org/pages/staff_page/images/rhenry.png",
+  "email":"rhenry6@schools.nyc.gov",
+  "phone":"(555) 777-7777"
+},
+{
+  "section":"Dean of Students",
+  "name":"Kwoon Kong",
+  "role":"Dean",
+  "bio":"RM 203",
+  "photo":"https://www.westinghousehs.org/pages/staff_page/images/kwoon.png",
+  "email":"kkong@schools.nyc.gov",
+  "phone":"(555) 777-7777"
+},
+{
+  "section":"Dean of Students",
+  "name":"Chris Ryan",
+  "role":"Dean",
+  "bio":"RM 203 / 256",
+  "photo":"https://www.westinghousehs.org/pages/staff_page/images/ryan.png",
+  "email":"cryan13@schools.nyc.gov",
+  "phone":"(555) 777-7777"
+},
+{
+  "section":"Building Support Services",
+  "name":"Lou Granato",
+  "role":"Custodian",
+  "bio":"RM 140",
+  "photo":"https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email":"ck580@schools.nyc.gov",
+  "phone":"(555) 666-6666"
+},
+{
+  "section":"Building Support Services",
+  "name":"Rita Hogan",
+  "role":"School Nurse",
+  "bio":"RM 138",
+  "photo":"https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email":"rhogan3@schools.nyc.gov",
+  "phone":"(555) 666-6666"
+},
+{
+  "section":"Building Support Services",
+  "name":"Venus King",
+  "role":"Health Aide",
+  "bio":"RM 138",
+  "photo":"https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
+  "email":"vking@schools.nyc.gov",
+  "phone":"(555) 666-6666"
 }
 ]
