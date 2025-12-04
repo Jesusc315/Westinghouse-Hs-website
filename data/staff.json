@@ -178,5 +178,32 @@
   "photo":"https://www.westinghousehs.org/images/index%20page/gwhs-logo.webp",
   "email":"vking@schools.nyc.gov",
   "phone":"(555) 666-6666"
+},
+{
+  "section":"Student Services",
+  "name":"Eleonora Berger",
+  "role":"College Advisor",
+  "bio":"RM 244",
+  "photo":"https://westinghousehs.org/pages/staff_page/images/berger.png",
+  "email":"eberger10@schools.nyc.gov",
+  "phone":"(555) 666-6666"
+},
+{
+  "section":"Student Services",
+  "name":"Everett Kelley",
+  "role":"Work-Based Learning Coordinator",
+  "bio":"RM 366 / 458",
+  "photo":"https://westinghousehs.org/pages/staff_page/images/kelley.png",
+  "email":"ekelley@schools.nyc.gov",
+  "phone":"(555) 666-6666"
+},
+{
+  "section":"Student Services",
+  "name":"Amoy Kirlew-Lynch",
+  "role":"Senior Advisor",
+  "bio":"RM 222B",
+  "photo":"https://westinghousehs.org/pages/staff_page/images/lynch.png",
+  "email":"akirlewlynch@schools.nyc.gov",
+  "phone":"(555) 666-6666"
 }
 ]
