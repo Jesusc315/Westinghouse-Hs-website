@@ -4,8 +4,7 @@
 	"description": "Westinghouse High School Website",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js",
-		"build": "node build.js"
+		"serve": "npx serve dist"
 	},
 	"author": "",
 	"license": "ISC",
